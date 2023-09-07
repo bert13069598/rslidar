@@ -133,7 +133,7 @@ inline sensor_msgs::PointCloud2 toRosMsg(const LidarPointCloudMsg& rs_msg, const
       *iter_intensity_ = point.intensity;
 
       ++iter_x_;
-      ++iter_y_;;
+      ++iter_y_;
       ++iter_z_;
       ++iter_intensity_;
 
